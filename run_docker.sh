@@ -1,0 +1,1 @@
+sudo docker run -v /data/chitb:/data/chitb -e HF_TOKEN= -e HF_HOME=/data/chitb//.cache --ipc=host --gpus all --entrypoint /bin/bash --rm -it vllm/vllm-openai:deploy
